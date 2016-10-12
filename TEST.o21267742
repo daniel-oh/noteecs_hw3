@@ -1,0 +1,48 @@
+I ran on: 
+nyx6141
+nyx6141
+nyx6141
+nyx6177
+nyx6177
+nyx6177
+[warn] Epoll ADD(4) on fd 1 failed.  Old events were 0; read change was 0 (none); write change was 1 (add): Operation not permitted
+[1476266971.918876] [nyx6141:23851:0]         sys.c:744  MXM  WARN  Conflicting CPU frequencies detected, using: 2900.00
+[1476266971.920564] [nyx6141:23854:0]         sys.c:744  MXM  WARN  Conflicting CPU frequencies detected, using: 2900.00
+[1476266971.922436] [nyx6141:23850:0]         sys.c:744  MXM  WARN  Conflicting CPU frequencies detected, using: 2900.00
+[1476266971.924505] [nyx6141:23857:0]         sys.c:744  MXM  WARN  Conflicting CPU frequencies detected, using: 2900.00
+[1476266971.932123] [nyx6141:23855:0]         sys.c:744  MXM  WARN  Conflicting CPU frequencies detected, using: 2900.00
+[1476266971.936464] [nyx6141:23851:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1476266971.937036] [nyx6141:23857:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1476266971.938034] [nyx6141:23854:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1476266971.940956] [nyx6141:23850:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1476266971.941523] [nyx6141:23859:0]         sys.c:744  MXM  WARN  Conflicting CPU frequencies detected, using: 2900.00
+[1476266971.945713] [nyx6141:23854:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1476266971.945953] [nyx6141:23851:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1476266971.946526] [nyx6141:23855:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1476266971.951967] [nyx6141:23850:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1476266971.952248] [nyx6141:23857:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1476266971.960246] [nyx6141:23859:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1476266971.961253] [nyx6141:23855:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1476266971.974918] [nyx6141:23859:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1476266972.625190] [nyx6141:23859:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1476266972.637185] [nyx6141:23855:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1476266972.637849] [nyx6141:23854:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1476266972.644543] [nyx6141:23850:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1476266972.646655] [nyx6141:23857:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1476266972.646961] [nyx6141:23851:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+Process 3 of procs=6 covering data indexed in 99 - 131
+Process 2 of procs=6 covering data indexed in 66 - 98
+Process 4 of procs=6 covering data indexed in 132 - 164
+Process 0 of procs=6 covering data indexed in 0 - 32
+Process 1 of procs=6 covering data indexed in 33 - 65
+Process 5 of procs=6 covering data indexed in 165 - 199
+Rank 5 has sum 27279.570575
+Rank 4 has sum 23093.610394
+Rank 0 has sum 8266.331942
+Rank 3 has sum 9814.074573
+Rank 2 has sum 14953.703589
+Rank 1 has sum 16662.183659
+This is root (Rank 0) with total sum 100069.474731
+And the square of this is: 10013899772.928848
+Data size = 80000, Matrix Size = 10000
+Time it took = 0.030701

@@ -1,0 +1,34 @@
+
+active jobs------------------------
+JOBID              USERNAME      STATE PROCS   REMAINING            STARTTIME
+
+
+0 active jobs           0 of 21092 processors in use by local jobs (0.00%)
+                       598 of 1246 nodes active      (47.99%)
+
+eligible jobs----------------------
+JOBID              USERNAME      STATE PROCS     WCLIMIT            QUEUETIME
+
+21267563           crkowale       Idle    36    00:10:00  Wed Oct 12 03:22:22
+21267557           crkowale       Idle    36    00:10:00  Wed Oct 12 03:15:39
+21267247           jvilchis       Idle    36    00:15:00  Tue Oct 11 23:24:10
+21267251           jvilchis       Idle    36    00:15:00  Tue Oct 11 23:24:10
+21225465            jimwang       Idle    32    00:10:00  Wed Oct  5 17:38:17
+21225576            jimwang       Idle    32    00:10:00  Wed Oct  5 17:47:06
+21228309            jimwang       Idle    32    00:05:00  Thu Oct  6 00:36:32
+21228311            jimwang       Idle    32    00:05:00  Thu Oct  6 00:36:46
+21225544            jimwang       Idle    32    00:10:00  Wed Oct  5 17:46:29
+21225397            jimwang       Idle    36    00:05:00  Wed Oct  5 17:33:14
+
+10 eligible jobs   
+
+blocked jobs-----------------------
+JOBID              USERNAME      STATE PROCS     WCLIMIT            QUEUETIME
+
+21248118           binbinli       Idle    36    00:05:00  Sat Oct  8 16:37:51
+
+1 blocked job    
+
+Total jobs:  11
+
+NOTE:  nyx resource manager is down

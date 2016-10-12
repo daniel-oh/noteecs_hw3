@@ -1,0 +1,26 @@
+#!/bin/sh
+#PBS -S /bin/sh
+#PBS -N TEST
+#PBS -A eecs587f16_flux
+# other thing to use is hpc101_flux or eecs587f16_flux
+#PBS -l qos=flux
+#PBS -l nodes=2:ppn=3,walltime=00:05:00
+# procs=5 will find JUST 5 procs, maybe on each node
+# alternatively, we can use nodes=x:ppn=1,
+#PBS -l pmem=100mb
+#PBS -q flux
+#PBS -m abe
+#PBS -j oe
+#PBS -V
+
+# Let PBS handle your output
+# -e is true if following exists
+if [ -e "$PBS_NODEFILE" ]; then
+   echo "I ran on: "
+   cat $PBS_NODEFILE
+fi
+# -d is true if following is directory
+if [ -d "$PBS_O_WORKDIR" ]; then
+   cd "$PBS_O_WORKDIR"
+fi
+mpirun -np 6 --oversubscribe ./reduce_avg 100
