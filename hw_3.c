@@ -160,16 +160,16 @@ int main(int argc, char** argv) {
  /*
  //run the main part here
  if (world_size == 1) {
-   //do one processor shit
+   //do one processor math
    for 
  }
  else {
    //do other shit
    if (world_rank == 0) {
-     //do non repeatable shit
+     //do non repeatable math
    }
    else if (world_rank == world_size - 1) {
-     //do go up shit
+     //do go up math
    }
    else if ((world_size / 2) - 1 == world_rank) {
      //send down then recv up
@@ -179,7 +179,7 @@ int main(int argc, char** argv) {
  */
 
  if (world_rank == 0) {
-   //do shit
+   //do math
    for (i = subdata_start + 1; i < sub_final; i++) {
      for (j = 1; j < n - 1; j++) {
        subdata[i][j] = math(data, i, j);
